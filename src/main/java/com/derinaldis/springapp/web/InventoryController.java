@@ -13,7 +13,7 @@ import org.apache.commons.logging.LogFactory;
 import java.io.IOException;
 import java.util.Date;
 
-public class HelloController implements Controller {
+public class InventoryController implements Controller {
 
 protected final Log logger = LogFactory.getLog(getClass());
 
@@ -21,7 +21,7 @@ public ModelAndView handleRequest(HttpServletRequest request, HttpServletRespons
 
 throws ServletException, IOException {
         String now = (new Date()).toString();
-        logger.info("Returning hello view with " + now);
+        logger.info("Returning inventory view with " + now);
         return new ModelAndView("hello", "now", now);
 }
 
