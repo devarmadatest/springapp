@@ -15,5 +15,8 @@
             <br/>
             <br/>
         </c:forEach>
+        <br/>
+        <a href="<c:url value=" priceincrease.htm"/>">Increase Prices</a>
+        <br/>
     </body>
 </html>
