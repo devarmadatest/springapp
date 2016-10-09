@@ -1,4 +1,4 @@
-package com.derinaldis.pringapp.web;
+package com.derinaldis.springapp.web;
 
 import org.springframework.web.servlet.ModelAndView;
 import com.derinaldis.springapp.web.HelloController;

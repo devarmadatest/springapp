@@ -1,1 +1,4 @@
 com/derinaldis/springapp/web/HelloController.class
+com/derinaldis/springapp/domain/Product.class
+com/derinaldis/springapp/service/ProductManager.class
+com/derinaldis/springapp/service/SimpleProductManager.class
